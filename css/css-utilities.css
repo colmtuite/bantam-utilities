@@ -1,0 +1,120 @@
+/* Compiler */
+
+/* Centered */
+
+.centered {
+
+    margin-left: auto;
+
+    margin-right: auto
+}
+//
+//  Clearfix
+//  -------------------------
+
+//  Micro clearfix to clear floats.
+
+.cf:before, .cf:after {
+
+    content: "";
+
+    display: table
+}
+.cf:after {
+
+    clear: both
+}
+/* Hidden */
+.hidden {
+
+    display: none;
+
+    visibility: hidden
+}
+/* Inline */
+.inline > div {
+
+    float: left
+}
+/* Positioning */
+.posPinTL {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0
+}
+.posFixTL {
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0
+}
+.posPinAll {
+
+    position: absolute;
+
+    top: 0;
+
+    right: 0;
+
+    bottom: 0;
+
+    left: 0;
+
+    margin: auto
+}
+.posFixAll {
+
+    position: fixed;
+
+    top: 0;
+
+    right: 0;
+
+    bottom: 0;
+
+    left: 0
+}
+/* Truncate Text */
+.truncateText {
+
+    display: block;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap
+}
+/* Vertically center */
+.verticallyCenter {
+
+    position: relative;
+
+    top: 50%;
+
+    transform: translateY(-50%)
+}
+/* Visually Hidden */
+.visuallyHidden {
+
+    position: absolute;
+
+    height: 1px;
+
+    width: 1px;
+
+    border: 0;
+
+    clip: rect(0 0 0 0);
+
+    margin: -1px;
+
+    overflow: hidden;
+
+    padding: 0
+}
