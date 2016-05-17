@@ -8,12 +8,7 @@
 
     margin-right: auto
 }
-//
-//  Clearfix
-//  -------------------------
-
-//  Micro clearfix to clear floats.
-
+/* Clearfix */
 .cf:before, .cf:after {
 
     content: "";
