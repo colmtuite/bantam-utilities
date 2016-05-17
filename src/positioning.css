@@ -1,0 +1,30 @@
+/* Positioning */
+
+.posPinTL {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.posFixTL {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.posPinAll {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.posFixAll {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
