@@ -1,30 +1,29 @@
 /* Positioning */
 
-.posPinTL {
-  position: absolute;
+.pinTL {
   top: 0;
   left: 0;
 }
 
-.posFixTL {
-  position: fixed;
+.pinTR {
   top: 0;
+  right: 0;
+}
+
+.pinBR {
+  bottom: 0;
+  right: 0;
+}
+
+.pinBL {
+  bottom: 0;
   left: 0;
 }
 
-.posPinAll {
-  position: absolute;
+.pinAll {
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   margin: auto;
-}
-
-.posFixAll {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
 }
