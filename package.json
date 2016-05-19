@@ -1,17 +1,17 @@
 {
   "name": "bantam-utilities",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A set of helper classes for performing common, functional CSS utilities.",
   "author": "Colm Tuite <colmtuite@gmail.com> (http://www.colmtuite.com)",
-  "style": "css/css-utilities.css",
-  "main": "css/css-utilities.css",
+  "style": "css/bantam-utilities.css",
+  "main": "css/bantam-utilities.css",
   "files": [
     "css",
     "src"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/colmtuite/css-utilities.git"
+    "url": "git+https://github.com/colmtuite/bantam-utilities.git"
   },
   "keywords": [
     "css",
@@ -35,8 +35,8 @@
   ],
   "scripts": {
     "start": "npm run build:css && npm run build:minify",
-    "build:css": "node ./scripts/postcss src/css-utilities.css css/css-utilities.css",
-    "build:minify": "node ./scripts/postcss -m src/css-utilities.css css/css-utilities.min.css",
+    "build:css": "node ./scripts/postcss src/bantam-utilities.css css/bantam-utilities.css",
+    "build:minify": "node ./scripts/postcss -m src/bantam-utilities.css css/bantam-utilities.min.css",
     "build:watch": "watch 'npm start' ./src/"
   }
 }
