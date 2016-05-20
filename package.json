@@ -1,6 +1,6 @@
 {
   "name": "bantam-utilities",
-  "version": "0.0.2",
+  "version": "0.0.21",
   "description": "A set of helper classes for performing common, functional CSS utilities.",
   "author": "Colm Tuite <colmtuite@gmail.com> (http://www.colmtuite.com)",
   "style": "css/bantam-utilities.css",

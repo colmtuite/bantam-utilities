@@ -27,9 +27,13 @@
     visibility: hidden
 }
 /* Inline */
+.inline {
+
+    font-size: 0
+}
 .inline > div {
 
-    float: left
+    display: inline-block
 }
 /* Positioning */
 .pinTL {
