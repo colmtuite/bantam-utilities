@@ -1,11 +1,15 @@
 /* Clearfix */
 
-.cf:before,
-.cf:after {
+/* Nicolas Gallagher's Clearfix */
+
+.clearfix:before,
+.clearfix:after {
   content: "";
   display: table;
 }
 
-.cf:after {
+.clearfix:after {
   clear: both;
 }
+
+.clearfix { *zoom: 1; }
